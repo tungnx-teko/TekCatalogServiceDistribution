@@ -1,0 +1,11 @@
+framework module TekCatalogService {
+  umbrella header "TekCatalogService.h"
+
+  export *
+  module * { export * }
+}
+
+module TekCatalogService.Swift {
+    header "TekCatalogService-Swift.h"
+    requires objc
+}
